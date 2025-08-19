@@ -4,8 +4,8 @@ import ctypes
 import subprocess
 
 # 定义应用路径
-WEIXIN_PATH = r"D:\Program Files\Tencent\Weixin\Weixin.exe"
-QQ_PATH = r"D:\Program Files\Tencent\QQNT\QQ.exe"
+WEIXIN_PATH = r"C:\Program Files\Tencent\Weixin\Weixin.exe"
+QQ_PATH = r"C:\Program Files\Tencent\QQNT\QQ.exe"
 
 def launch_app(path, name):
     try:
